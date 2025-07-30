@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>香氣人格結果 | LeeLee Scent Studio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>香氣人格測驗結果</h1>
+    <div class="result-grid">
+      <div class="result">
+        <img src="images/citrus.png" alt="活力柑橘型">
+        <h2>🍊 活力柑橘型</h2>
+        <p>佛手柑、葡萄柚、甜橙，陽光灑落的冒險家。</p>
+      </div>
+      <div class="result">
+        <img src="images/oud.png" alt="靜謐沉香型">
+        <h2>🪵 靜謐沉香型</h2>
+        <p>沉香、乳香、雪松，穩重沈靜的靈魂旅人。</p>
+      </div>
+      <div class="result">
+        <img src="images/flower.png" alt="柔美花香型">
+        <h2>🌸 柔美花香型</h2>
+        <p>白玫瑰、梔子花，小蒼蘭，感性而細膩。</p>
+      </div>
+      <div class="result">
+        <img src="images/wood.png" alt="自然木質型">
+        <h2>🍃 自然木質型</h2>
+        <p>香根草、橡苔、鼠尾草，貼近自然的平衡使者。</p>
+      </div>
+      <div class="result">
+        <img src="images/fruity.png" alt="甜香花果型">
+        <h2>🍬 甜香花果型</h2>
+        <p>荔枝、黑醋栗、香草，溫柔療癒的創作者。</p>
+      </div>
+      <div class="result">
+        <img src="images/soap.png" alt="極簡皂感型">
+        <h2>🧼 極簡皂感型</h2>
+        <p>白麝香、香皂調、棉花香，純粹俐落的優雅者。</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
