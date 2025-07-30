@@ -1,39 +1,83 @@
+import React from "react";
+import "./style.css";
 
-body {
-  font-family: "Noto Sans TC", sans-serif;
-  margin: 0;
-  background: #fefefe;
-  color: #333;
+export default function Page() {
+  return (
+    <main className="p-6 max-w-3xl mx-auto space-y-12">
+      {/* 活力柑橘型 */}
+      <section className="scent-card citrus">
+        <h2>🍊 活力柑橘型：太陽下的灑脫冒險者</h2>
+        <p>你像陽光灑在草地上，總是充滿朝氣、正能量滿滿，是朋友之間的能量發電機。你喜歡冒險，熱愛探索，也懂得享受當下的每個跳動心跳。</p>
+        <ul>
+          <li><strong>代表香氣調性：</strong>佛手柑、葡萄柚、甜橙、粉紅胡椒</li>
+          <li><strong>個性氣味筆記：</strong>明亮、清新、開朗、充滿動能</li>
+          <li><strong>適合你的香氣場景：</strong>戶外野餐、夏日旅行、公路冒險</li>
+        </ul>
+        <blockquote>「世界太大了，不去看怎麼對得起自己的好奇心？」</blockquote>
+      </section>
+
+      {/* 靜謐沉香型 */}
+      <section className="scent-card woody">
+        <h2>🪵 靜謐沉香型：穩重的靈魂漫遊者</h2>
+        <p>你總是安靜卻有力量，在人群中不喧嘩、不張揚，卻總讓人忍不住靠近。你像一座老樹，給人安穩與庇護，內心深處藏著堅定信念與溫柔直覺。</p>
+        <ul>
+          <li><strong>代表香氣調性：</strong>沉香、雪松、乳香、廣藿香</li>
+          <li><strong>個性氣味筆記：</strong>安定、內斂、沈穩、有層次</li>
+          <li><strong>適合你的香氣場景：</strong>靜夜閱讀、雨天咖啡館、山林獨行</li>
+        </ul>
+        <blockquote>「你的沉默，不是疏離，而是最有力量的溫柔。」</blockquote>
+      </section>
+
+      {/* 柔美花香型 */}
+      <section className="scent-card floral">
+        <h2>🌸 柔美花香型：感性的內在療癒者</h2>
+        <p>你細膩、敏感，擅長讀懂他人情緒，在不經意中就療癒了他人。你不需強烈表達，卻總能在人心留下一抹餘韻，如同香水裡的尾韻，深刻動人。</p>
+        <ul>
+          <li><strong>代表香氣調性：</strong>白玫瑰、梔子花、小蒼蘭、牡丹</li>
+          <li><strong>個性氣味筆記：</strong>優雅、感性、柔和、溫暖</li>
+          <li><strong>適合你的香氣場景：</strong>午後曬書、香氛浴、音樂空間</li>
+        </ul>
+        <blockquote>「你不需討好誰，你本身就是那朵無人取代的花。」</blockquote>
+      </section>
+
+      {/* 自然木質型 */}
+      <section className="scent-card earthy">
+        <h2>🍃 自然木質型：貼近本質的靈性實踐者</h2>
+        <p>你總是渴望與自然為伍，生活對你而言，是與節奏同步、與土地連結。你是療癒自己也療癒別人的存在，是在人群中默默築起平衡的力量。</p>
+        <ul>
+          <li><strong>代表香氣調性：</strong>雪松、香根草、橡苔、鼠尾草</li>
+          <li><strong>個性氣味筆記：</strong>中性、自然、深遠、樸實不俗</li>
+          <li><strong>適合你的香氣場景：</strong>森林浴、瑜伽時光、日光冥想</li>
+        </ul>
+        <blockquote>「你是一棵無聲生長的樹，穩穩立在世界中間。」</blockquote>
+      </section>
+
+      {/* 甜香花果型 */}
+      <section className="scent-card sweet">
+        <h2>🍬 甜香花果型：療癒人心的溫柔創作者</h2>
+        <p>你是一道甜點氣息般的存在，總能輕輕觸動人心，讓人在你身邊感到被照顧。你是朋友眼中最貼心的存在，內心住著一個擁抱夢想的創作者。</p>
+        <ul>
+          <li><strong>代表香氣調性：</strong>荔枝、黑醋栗、麝香、香草</li>
+          <li><strong>個性氣味筆記：</strong>甜美、輕柔、可親、有記憶感</li>
+          <li><strong>適合你的香氣場景：</strong>手作時光、老屋咖啡館、慵懶午睡</li>
+        </ul>
+        <blockquote>「你不是為了取悅別人而甜，而是為了守護內心而溫柔。」</blockquote>
+      </section>
+
+      {/* 極簡皂感型 */}
+      <section className="scent-card soap">
+        <h2>🧼 極簡皂感型：優雅有界線的自由者</h2>
+        <p>你擁有高敏銳度與清晰的自我界線，對美感有著直覺的追求。不過度、不造作，你像一瓶純粹的皂感香，簡單卻難忘，輕輕帶出獨有質感。</p>
+        <ul>
+          <li><strong>代表香氣調性：</strong>白麝香、香皂調、佛手柑、棉花香</li>
+          <li><strong>個性氣味筆記：</strong>極簡、清爽、理性、俐落</li>
+          <li><strong>適合你的香氣場景：</strong>極簡室內、雨後衣櫃、日常洗衣香</li>
+        </ul>
+        <blockquote>「你不需要成為誰，你已是最乾淨純粹的氣味。」</blockquote>
+      </section>
+    </main>
+  );
 }
-.container {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
-  text-align: center;
-}
-button {
-  padding: 1rem 2rem;
-  font-size: 1.2rem;
-  background: #000;
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-}
-.result-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1rem;
-  margin-top: 2rem;
-}
-.result {
-  background: #fff;
-  border-radius: 16px;
-  padding: 1rem;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-}
-.result img {
-  width: 100px;
-  height: 100px;
+
   object-fit: cover;
 }
