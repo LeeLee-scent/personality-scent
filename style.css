@@ -1,0 +1,37 @@
+
+body {
+  font-family: "Noto Serif TC", serif;
+  background: #fffaf6;
+  color: #333;
+  text-align: center;
+  padding: 2em;
+}
+#quiz-container {
+  max-width: 600px;
+  margin: auto;
+}
+button {
+  background: #e0c3a3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 1em;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background: #cfa67e;
+}
+.option-btn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  width: 80%;
+  border-radius: 5px;
+}
+.option-btn:hover {
+  background: #f0ebe4;
+}
